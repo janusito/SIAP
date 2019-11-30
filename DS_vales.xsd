@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_vales" targetNamespace="http://tempuri.org/DS_vales.xsd" xmlns:mstns="http://tempuri.org/DS_vales.xsd" xmlns="http://tempuri.org/DS_vales.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_vales" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_vales" msprop:Generator_UserDSName="DS_vales">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vistavale" msprop:Generator_TableClassName="vistavaleDataTable" msprop:Generator_TableVarName="tablevistavale" msprop:Generator_RowChangedName="vistavaleRowChanged" msprop:Generator_TablePropName="vistavale" msprop:Generator_RowDeletingName="vistavaleRowDeleting" msprop:Generator_RowChangingName="vistavaleRowChanging" msprop:Generator_RowEvHandlerName="vistavaleRowChangeEventHandler" msprop:Generator_RowDeletedName="vistavaleRowDeleted" msprop:Generator_RowClassName="vistavaleRow" msprop:Generator_UserTableName="vistavale" msprop:Generator_RowEvArgName="vistavaleRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="folio_vale" msprop:Generator_ColumnVarNameInTable="columnfolio_vale" msprop:Generator_ColumnPropNameInRow="folio_vale" msprop:Generator_ColumnPropNameInTable="folio_valeColumn" msprop:Generator_UserColumnName="folio_vale" type="xs:int" minOccurs="0" />
+              <xs:element name="den_val" msprop:Generator_ColumnVarNameInTable="columnden_val" msprop:Generator_ColumnPropNameInRow="den_val" msprop:Generator_ColumnPropNameInTable="den_valColumn" msprop:Generator_UserColumnName="den_val" type="xs:int" minOccurs="0" />
+              <xs:element name="fac_ingreso" msprop:Generator_ColumnVarNameInTable="columnfac_ingreso" msprop:Generator_ColumnPropNameInRow="fac_ingreso" msprop:Generator_ColumnPropNameInTable="fac_ingresoColumn" msprop:Generator_UserColumnName="fac_ingreso" type="xs:string" minOccurs="0" />
+              <xs:element name="fec_ingreso" msprop:Generator_ColumnVarNameInTable="columnfec_ingreso" msprop:Generator_ColumnPropNameInRow="fec_ingreso" msprop:Generator_ColumnPropNameInTable="fec_ingresoColumn" msprop:Generator_UserColumnName="fec_ingreso" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="sta_val" msprop:Generator_ColumnVarNameInTable="columnsta_val" msprop:Generator_ColumnPropNameInRow="sta_val" msprop:Generator_ColumnPropNameInTable="sta_valColumn" msprop:Generator_UserColumnName="sta_val" type="xs:string" minOccurs="0" />
+              <xs:element name="fec_entrega" msprop:Generator_ColumnVarNameInTable="columnfec_entrega" msprop:Generator_ColumnPropNameInRow="fec_entrega" msprop:Generator_ColumnPropNameInTable="fec_entregaColumn" msprop:Generator_UserColumnName="fec_entrega" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nomveh" msprop:Generator_ColumnVarNameInTable="columnnomveh" msprop:Generator_ColumnPropNameInRow="nomveh" msprop:Generator_ColumnPropNameInTable="nomvehColumn" msprop:Generator_UserColumnName="nomveh" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vistaraya" msprop:Generator_TableClassName="vistarayaDataTable" msprop:Generator_TableVarName="tablevistaraya" msprop:Generator_RowChangedName="vistarayaRowChanged" msprop:Generator_TablePropName="vistaraya" msprop:Generator_RowDeletingName="vistarayaRowDeleting" msprop:Generator_RowChangingName="vistarayaRowChanging" msprop:Generator_RowEvHandlerName="vistarayaRowChangeEventHandler" msprop:Generator_RowDeletedName="vistarayaRowDeleted" msprop:Generator_RowClassName="vistarayaRow" msprop:Generator_UserTableName="vistaraya" msprop:Generator_RowEvArgName="vistarayaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nomveh" msprop:Generator_ColumnVarNameInTable="columnnomveh" msprop:Generator_ColumnPropNameInRow="nomveh" msprop:Generator_ColumnPropNameInTable="nomvehColumn" msprop:Generator_UserColumnName="nomveh" type="xs:string" minOccurs="0" />
+              <xs:element name="nomchofer" msprop:Generator_ColumnVarNameInTable="columnnomchofer" msprop:Generator_ColumnPropNameInRow="nomchofer" msprop:Generator_ColumnPropNameInTable="nomchoferColumn" msprop:Generator_UserColumnName="nomchofer" type="xs:string" minOccurs="0" />
+              <xs:element name="semana" msprop:Generator_ColumnVarNameInTable="columnsemana" msprop:Generator_ColumnPropNameInRow="semana" msprop:Generator_ColumnPropNameInTable="semanaColumn" msprop:Generator_UserColumnName="semana" type="xs:string" minOccurs="0" />
+              <xs:element name="cant_tickets" msprop:Generator_ColumnVarNameInTable="columncant_tickets" msprop:Generator_ColumnPropNameInRow="cant_tickets" msprop:Generator_ColumnPropNameInTable="cant_ticketsColumn" msprop:Generator_UserColumnName="cant_tickets" type="xs:int" minOccurs="0" />
+              <xs:element name="toneladas" msprop:Generator_ColumnVarNameInTable="columntoneladas" msprop:Generator_ColumnPropNameInRow="toneladas" msprop:Generator_ColumnPropNameInTable="toneladasColumn" msprop:Generator_UserColumnName="toneladas" type="xs:decimal" minOccurs="0" />
+              <xs:element name="importe_cos" msprop:Generator_ColumnVarNameInTable="columnimporte_cos" msprop:Generator_ColumnPropNameInRow="importe_cos" msprop:Generator_ColumnPropNameInTable="importe_cosColumn" msprop:Generator_UserColumnName="importe_cos" type="xs:decimal" minOccurs="0" />
+              <xs:element name="importe_tra" msprop:Generator_ColumnVarNameInTable="columnimporte_tra" msprop:Generator_ColumnPropNameInRow="importe_tra" msprop:Generator_ColumnPropNameInTable="importe_traColumn" msprop:Generator_UserColumnName="importe_tra" type="xs:decimal" minOccurs="0" />
+              <xs:element name="importe_ayu" msprop:Generator_ColumnVarNameInTable="columnimporte_ayu" msprop:Generator_ColumnPropNameInRow="importe_ayu" msprop:Generator_ColumnPropNameInTable="importe_ayuColumn" msprop:Generator_UserColumnName="importe_ayu" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

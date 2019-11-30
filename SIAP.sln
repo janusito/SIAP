@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIAP", "SIAP.csproj", "{1AE9A63C-057D-4A60-BFA1-F9718871E16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiLibreria", "MiLibreria\MiLibreria.csproj", "{D59C6C46-994D-498B-88ED-3432FE9F9203}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup SIAP", "Setup SIAP\Setup SIAP.vdproj", "{19610523-67D4-4C63-8C6E-44A4518575B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AE9A63C-057D-4A60-BFA1-F9718871E16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE9A63C-057D-4A60-BFA1-F9718871E16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE9A63C-057D-4A60-BFA1-F9718871E16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE9A63C-057D-4A60-BFA1-F9718871E16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59C6C46-994D-498B-88ED-3432FE9F9203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59C6C46-994D-498B-88ED-3432FE9F9203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59C6C46-994D-498B-88ED-3432FE9F9203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59C6C46-994D-498B-88ED-3432FE9F9203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19610523-67D4-4C63-8C6E-44A4518575B1}.Debug|Any CPU.ActiveCfg = Debug
+		{19610523-67D4-4C63-8C6E-44A4518575B1}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0BE28E9-C77D-4A94-AB95-1F8C91689163}
+	EndGlobalSection
+EndGlobal
