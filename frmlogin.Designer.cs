@@ -104,9 +104,9 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(306, 19);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(189, 81);
+            this.label3.Size = new System.Drawing.Size(161, 81);
             this.label3.TabIndex = 8;
-            this.label3.Text = "SIAPx";
+            this.label3.Text = "SIAP";
             // 
             // label2
             // 
