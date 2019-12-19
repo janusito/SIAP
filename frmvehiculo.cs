@@ -159,6 +159,7 @@ namespace SIAP
                     button3.Enabled = true;
                     button4.Enabled = true;
                     button5.Enabled = true;
+                    btnedit.Enabled = true;
 
                     return true;
                 }
@@ -402,6 +403,7 @@ namespace SIAP
             button3.Enabled = false;
             button4.Enabled = false;
             button5.Enabled = false;
+            btnedit.Enabled=false;
             txtdescripv.Text = "";
             txtplaca.Text = "";
             txtdescripv.Focus();
